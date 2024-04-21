@@ -1,0 +1,23 @@
+{
+  "name": "vite-plugin-ts-to-mdx",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --stream -r run dev",
+    "dev:A": "pnpm --stream --filter 'sdk-a' run dev",
+    "build": "pnpm  --stream -r run build",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "vitest": "^1.5.0"
+  }
+}
